@@ -1,0 +1,18 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e2ebf5;
+  color: #252424;
+  margin: 0;
+  padding: 0.3rem;
+}
+.links {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+a {
+  text-decoration: none;
+}

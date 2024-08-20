@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <style>
+      body {
+        color: #252424;
+      }
+    </style>
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <%- include("../partials/navbar.ejs") -%>
+    <h1>This Is About Page</h1>
+
+    <!-- ? Condition Statements -->
+    <% if(user.age>18){%>
+    <h1><%- user.name%> is eligible for voting</h1>
+    <%} else{%>
+    <h1><%- user.name%> is not eligible for voting</h1>
+    <%} %>
+
+    <!-- ? Array elements -->
+
+    <% fruits.map(ele=>{%>
+    <li><%- ele %></li>
+    <%}) %>
+    <br />
+    <%- include("../partials/footer.ejs") -%>
+  </body>
+</html>
