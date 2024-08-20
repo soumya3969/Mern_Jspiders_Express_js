@@ -1,0 +1,26 @@
+[
+  {
+    "name": "soumya",
+    "age": 24,
+    "address": "odisha",
+    "mobile": 9937446657,
+    "isActive": true,
+    "email": "ltmhnt@gmail.com"
+  },
+  {
+    "name": "virat",
+    "age": 28,
+    "address": "mumbai",
+    "mobile": 1234567890,
+    "isActive": false,
+    "email": "virat@gmail.com"
+  },
+  {
+    "name": "user1",
+    "age": 16,
+    "address": "delhi",
+    "mobile": 6370741541,
+    "isActive": true,
+    "email": "user1@gmail.com"
+  }
+]
